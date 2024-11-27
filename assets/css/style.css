@@ -1,0 +1,67 @@
+/* Fonts and General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2c2c2c, #3e3e3e);
+}
+
+h1, h2 {
+    color: white;
+}
+
+/* Glassmorphism Style */
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #e0e0e0;
+}
+
+/* Buttons */
+.btn-outline-light {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background: white;
+    color: black;
+}
+
+.btn-light:hover {
+    background: #e0e0e0;
+}
+
+/* About Section */
+p.text-muted {
+    color: #b5b5b5 !important;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #5a5a5a;
+}
